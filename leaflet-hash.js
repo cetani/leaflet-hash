@@ -19,7 +19,7 @@
 		}
 		var args = hash.split("/");
 		if (args.length == 3) {
-			var zoom = parseInt(args[0], 10),
+			var zoom = parseFloat(args[0], 10.0),
 			lat = parseFloat(args[1]),
 			lon = parseFloat(args[2]);
 			if (isNaN(zoom) || isNaN(lat) || isNaN(lon)) {

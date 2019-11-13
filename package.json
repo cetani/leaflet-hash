@@ -1,12 +1,13 @@
 {
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "Michael Lawrence Evans",
-  "name": "leaflet-hash",
+  "name": "@cetani/leaflet-hash",
   "description": "linkable location hashes for leaflet",
   "version": "0.2.1",
-  "homepage": "https://github.com/mlevans/leaflet-hash",
+  "homepage": "https://github.com/cetani/leaflet-hash",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlevans/leaflet-hash.git"
+    "url": "https://github.com/cetani/leaflet-hash.git"
   },
   "devDependencies": {
       "mocha": "~1.8",
